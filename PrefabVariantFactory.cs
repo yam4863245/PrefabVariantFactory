@@ -19,7 +19,7 @@ public class PrefabVariantFactory : EditorWindow
     static Vector2 scrollPos;
     static int ProductCount;
 
-    [MenuItem("RisingWin/PrefabVariant工廠")]
+    [MenuItem("Tools/PrefabVariant工廠")]
     public static void NewWindow()
     {
         Window = GetWindow<PrefabVariantFactory>("PrefabVariant工廠");
